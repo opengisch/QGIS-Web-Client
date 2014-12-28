@@ -401,7 +401,7 @@ Ext.onReady(function () {
 	var lang_switcher = Ext.get('panel_header_lang_switcher')
 	var lang_options = ''
 	for (l in availableLanguages){
-        # strange behaviour of Array() which include a key called remove
+        // strange behaviour of Array() which include a key called remove
 		if (l == 'remove') {continue;}
 
 		lang_options +='<option value="' + l + '"'
